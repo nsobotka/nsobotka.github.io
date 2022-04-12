@@ -1,4 +1,4 @@
-# Personal website
-Written ground up in HTML, CSS, and JS and provides an overview of my academic and profession career.
+# An analysis of trends in the student body at the University of Pennsylvania
+Presents interested trends or data that was found as old yearbooks were scanned and analyzed. Although this does not represent all data that could be found using these yearbooks, but rather interesting tidbits and data that was consistently presented over the years.
 
-Inspired by text-based directional games like Zork.
+JS and CSS written by Aviel Resnick
