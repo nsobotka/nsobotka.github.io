@@ -1,6 +1,6 @@
 // cards
 card_home = document.getElementById("card-home")
-card_resume = document.getElementById("card-resume")
+card_reachout = document.getElementById("card-reachout")
 card_edu = document.getElementById("card-edu")
 card_classes = document.getElementById("card-classes")
 card_project1 = document.getElementById("card-project1")
@@ -16,7 +16,7 @@ right_arrow = document.getElementById("right-arrow")
 
 // neighbors order: up, down, left, right
 const neighbors = new Map();
-neighbors.set("card-home", [card_resume, card_edu, card_project1, card_work1]);
+neighbors.set("card-home", [card_reachout, card_edu, card_project1, card_work1]);
 neighbors.set("card-resume", [null, card_home, null, null]);
 neighbors.set("card-edu", [card_home, card_classes, null, null]);
 neighbors.set("card-classes", [card_edu, null, null, null]);
@@ -27,7 +27,7 @@ neighbors.set("card-work2", [null, null, card_work1, null]);
 
 function getCurrCard() {
     if (window.getComputedStyle(card_home, null).display == "block") { return "card-home" }
-    else if (window.getComputedStyle(card_resume, null).display == "block") { return "card-resume" }
+    else if (window.getComputedStyle(card_reachout, null).display == "block") { return "card-resume" }
     else if (window.getComputedStyle(card_edu, null).display == "block") { return "card-edu" }
     else if (window.getComputedStyle(card_classes, null).display == "block") { return "card-classes" }
     else if (window.getComputedStyle(card_project1, null).display == "block") { return "card-project1" }
@@ -117,7 +117,7 @@ function rightArrow() {
 // TODO: iterate through an array of the courses / the keys of neighbors for modularity
 function activate(card) { 
     card_home.style.display = "none";
-    card_resume.style.display = "none";
+    card_reachout.style.display = "none";
     card_edu.style.display = "none";
     card_classes.style.display = "none";
     card_project1.style.display = "none";
