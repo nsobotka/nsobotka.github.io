@@ -27,7 +27,7 @@ neighbors.set("card-work2", [null, null, card_work1, null]);
 
 function getCurrCard() {
     if (window.getComputedStyle(card_home, null).display == "block") { return "card-home" }
-    else if (window.getComputedStyle(card_reachout, null).display == "block") { return "card-resume" }
+    else if (window.getComputedStyle(card_reachout, null).display == "block") { return "card-reachout" }
     else if (window.getComputedStyle(card_edu, null).display == "block") { return "card-edu" }
     else if (window.getComputedStyle(card_classes, null).display == "block") { return "card-classes" }
     else if (window.getComputedStyle(card_project1, null).display == "block") { return "card-project1" }
