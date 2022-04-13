@@ -17,7 +17,7 @@ right_arrow = document.getElementById("right-arrow")
 // neighbors order: up, down, left, right
 const neighbors = new Map();
 neighbors.set("card-home", [card_reachout, card_edu, card_project1, card_work1]);
-neighbors.set("card-resume", [null, card_home, null, null]);
+neighbors.set("card-reachout", [null, card_home, null, null]);
 neighbors.set("card-edu", [card_home, card_classes, null, null]);
 neighbors.set("card-classes", [card_edu, null, null, null]);
 neighbors.set("card-project1", [null, null, card_project2, card_home]);
