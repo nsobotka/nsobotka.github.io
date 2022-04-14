@@ -10,8 +10,10 @@ card_women1 = document.getElementById("card-women1")
 card_women2 = document.getElementById("card-women2")
 card_women3 = document.getElementById("card-women3")
 card_womenMain = document.getElementById("card-womenMain")
-card_work1 = document.getElementById("card-work1")
-card_work2 = document.getElementById("card-work2")
+card_studentMain = document.getElementById("card-studentMain")
+card_student1 = document.getElementById("card-student1")
+card_student2 = document.getElementById("card-student2")
+card_student3 = document.getElementById("card-student3")
 
 // arrows
 up_arrow = document.getElementById("up-arrow")
@@ -21,7 +23,7 @@ right_arrow = document.getElementById("right-arrow")
 
 // neighbors order: up, down, left, right
 const neighbors = new Map();
-neighbors.set("card-home", [card_reachout, card_interestingMain, card_womenMain, card_work1]);
+neighbors.set("card-home", [card_reachout, card_interestingMain, card_womenMain, card_studentMain]);
 neighbors.set("card-reachout", [null, card_home, null, null]);
 neighbors.set("card-interestingMain", [card_home, card_interesting2, card_interesting1, card_interesting3]);
 neighbors.set("card-interesting1", [null, null, null, card_interestingMain]);
@@ -31,8 +33,10 @@ neighbors.set("card-women1", [null, card_womenMain, null, null]);
 neighbors.set("card-women2", [null, null, null, card_womenMain]);
 neighbors.set("card-women3", [card_womenMain, null, null, null]);
 neighbors.set("card-womenMain", [card_women1, card_women3, card_women2, card_home]);
-neighbors.set("card-work1", [null, null, card_home, card_work2]);
-neighbors.set("card-work2", [null, null, card_work1, null]);
+neighbors.set("card-studentMain", [card_student1, card_student3, card_home, card_student2]);
+neighbors.set("card-student1", [null, card_studentMain, null, null]);
+neighbors.set("card-student2", [null, null, card_studentMain, null]);
+neighbors.set("card-student3", [card_studentMain, null, null, null]);
 
 function getCurrCard() {
     if (window.getComputedStyle(card_home, null).display == "block") { return "card-home" }
@@ -45,8 +49,10 @@ function getCurrCard() {
     else if (window.getComputedStyle(card_women2, null).display == "block") { return "card-women2" }
     else if (window.getComputedStyle(card_women3, null).display == "block") { return "card-women3" }
     else if (window.getComputedStyle(card_womenMain, null).display == "block") { return "card-womenMain" }
-    else if (window.getComputedStyle(card_work1, null).display == "block") { return "card-work1" }
-    else if (window.getComputedStyle(card_work2, null).display == "block") { return "card-work2" }
+    else if (window.getComputedStyle(card_studentMain, null).display == "block") { return "card-studentMain" }
+    else if (window.getComputedStyle(card_student1, null).display == "block") { return "card-student1" }
+    else if (window.getComputedStyle(card_student2, null).display == "block") { return "card-student2" }
+    else if (window.getComputedStyle(card_student3, null).display == "block") { return "card-student3" }
     else { return alert("No Card Visible") }
 }
 
@@ -139,8 +145,10 @@ function activate(card) {
     card_women2.style.display = "none";
     card_women3.style.display = "none";
     card_womenMain.style.display = "none";
-    card_work1.style.display = "none";
-    card_work2.style.display = "none";
+    card_studentMain.style.display = "none";
+    card_student1.style.display = "none";
+    card_student2.style.display = "none";
+    card_student3.style.display = "none";
     
     card.style.display = "block";
     
