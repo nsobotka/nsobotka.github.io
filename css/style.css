@@ -136,12 +136,6 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-.classes {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
 #interesting1-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
@@ -165,12 +159,6 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-.classes {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-}
-
 #interesting2-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
@@ -192,12 +180,6 @@ blue {
 
     margin-left:-25vw;/* half width*/
 	margin-top:-25vh;/* half height*/
-}
-
-.classes {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
 }
 
 #interesting3-text {
