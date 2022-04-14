@@ -23,10 +23,10 @@ right_arrow = document.getElementById("right-arrow")
 const neighbors = new Map();
 neighbors.set("card-home", [card_reachout, card_interestingMain, card_womenMain, card_work1]);
 neighbors.set("card-reachout", [null, card_home, null, null]);
-neighbors.set("card-interestingMain", [card_home, interesting2, interesting1, interesting3]);
-neighbors.set("card-interesting1", [null, null, null, interestingMain]);
-neighbors.set("card-interesting2", [interestingMain, null, null, null]);
-neighbors.set("card-interesting3", [null, null, interestingMain, null]);
+neighbors.set("card-interestingMain", [card_home, card_interesting2, card_interesting1, card_interesting3]);
+neighbors.set("card-interesting1", [null, null, null, card_interestingMain]);
+neighbors.set("card-interesting2", [card_interestingMain, null, null, null]);
+neighbors.set("card-interesting3", [null, null, card_interestingMain, null]);
 neighbors.set("card-women1", [null, card_womenMain, null, null]);
 neighbors.set("card-women2", [null, null, null, card_womenMain]);
 neighbors.set("card-women3", [card_womenMain, null, null, null]);
