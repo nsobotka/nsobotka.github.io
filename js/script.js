@@ -1,7 +1,10 @@
 // cards
 card_home = document.getElementById("card-home")
 card_reachout = document.getElementById("card-reachout")
-card_edu = document.getElementById("card-edu")
+card_interestingMain = document.getElementById("card-interestingMain")
+card_interesting1 = document.getElementById("card-interesting1")
+card_interesting2 = document.getElementById("card-interesting2")
+card_interesting3 = document.getElementById("card-interesting3")
 card_classes = document.getElementById("card-classes")
 card_women1 = document.getElementById("card-women1")
 card_women2 = document.getElementById("card-women2")
@@ -18,10 +21,12 @@ right_arrow = document.getElementById("right-arrow")
 
 // neighbors order: up, down, left, right
 const neighbors = new Map();
-neighbors.set("card-home", [card_reachout, card_edu, card_womenMain, card_work1]);
+neighbors.set("card-home", [card_reachout, card_interestingMain, card_womenMain, card_work1]);
 neighbors.set("card-reachout", [null, card_home, null, null]);
-neighbors.set("card-edu", [card_home, card_classes, null, null]);
-neighbors.set("card-classes", [card_edu, null, null, null]);
+neighbors.set("card-interestingMain", [card_home, interesting2, interesting1, interesting3]);
+neighbors.set("card-interesting1", [null, null, null, interestingMain]);
+neighbors.set("card-interesting2", [interestingMain, null, null, null]);
+neighbors.set("card-interesting3", [null, null, interestingMain, null]);
 neighbors.set("card-women1", [null, card_womenMain, null, null]);
 neighbors.set("card-women2", [null, null, null, card_womenMain]);
 neighbors.set("card-women3", [card_womenMain, null, null, null]);
@@ -32,8 +37,10 @@ neighbors.set("card-work2", [null, null, card_work1, null]);
 function getCurrCard() {
     if (window.getComputedStyle(card_home, null).display == "block") { return "card-home" }
     else if (window.getComputedStyle(card_reachout, null).display == "block") { return "card-reachout" }
-    else if (window.getComputedStyle(card_edu, null).display == "block") { return "card-edu" }
-    else if (window.getComputedStyle(card_classes, null).display == "block") { return "card-classes" }
+    else if (window.getComputedStyle(card_interestingMain, null).display == "block") { return "card-interestingMain" }
+    else if (window.getComputedStyle(card_interesting1, null).display == "block") { return "card-interesting1" }
+    else if (window.getComputedStyle(card_interesting2, null).display == "block") { return "card-interesting2" }
+    else if (window.getComputedStyle(card_interesting3, null).display == "block") { return "card-interesting3" }
     else if (window.getComputedStyle(card_women1, null).display == "block") { return "card-women1" }
     else if (window.getComputedStyle(card_women2, null).display == "block") { return "card-women2" }
     else if (window.getComputedStyle(card_women3, null).display == "block") { return "card-women3" }
@@ -124,8 +131,10 @@ function rightArrow() {
 function activate(card) { 
     card_home.style.display = "none";
     card_reachout.style.display = "none";
-    card_edu.style.display = "none";
-    card_classes.style.display = "none";
+    card_interestingMain.style.display = "none";
+    card_interesting1.style.display = "none";
+    card_interesting2.style.display = "none";
+    card_interesting3.style.display = "none";
     card_women1.style.display = "none";
     card_women2.style.display = "none";
     card_women3.style.display = "none";
