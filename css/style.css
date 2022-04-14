@@ -282,7 +282,7 @@ blue {
     margin-right: 3vw;
 }
 
-#card-work1 {
+#card-studentMain {
     /* Initially hidden */
     display: none;
     position:absolute;
@@ -297,7 +297,7 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-#work1-text {
+#studentMain-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
     margin-top: 6vh;
@@ -305,7 +305,7 @@ blue {
     margin-right: 3vw;
 }
 
-#card-work2 {
+#card-student1 {
     /* Initially hidden */
     display: none;
     position:absolute;
@@ -320,7 +320,53 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-#work2-text {
+#student1-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 1vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#card-student2 {
+    /* Initially hidden */
+    display: none;
+    position:absolute;
+
+    width: 50vw;
+    height: 50vh;
+
+    top:50%;
+    left:50%;
+
+    margin-left:-25vw;/* half width*/
+	margin-top:-25vh;/* half height*/
+}
+
+#student2-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 1vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#card-student3 {
+    /* Initially hidden */
+    display: none;
+    position:absolute;
+
+    width: 50vw;
+    height: 50vh;
+
+    top:50%;
+    left:50%;
+
+    margin-left:-25vw;/* half width*/
+	margin-top:-25vh;/* half height*/
+}
+
+#student3-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
     margin-top: 6vh;
