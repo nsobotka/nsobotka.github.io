@@ -23,7 +23,7 @@ neighbors.set("card-reachout", [null, card_home, null, null]);
 neighbors.set("card-edu", [card_home, card_classes, null, null]);
 neighbors.set("card-classes", [card_edu, null, null, null]);
 neighbors.set("card-women1", [null, card_womenMain, null, null]);
-neighbors.set("card-women2", [null, null, card_womenMain, null]);
+neighbors.set("card-women2", [null, null, null, card_womenMain]);
 neighbors.set("card-women3", [card_womenMain, null, null, null]);
 neighbors.set("card-womenMain", [card_women1, card_women3, card_women2, card_home]);
 neighbors.set("card-work1", [null, null, card_home, card_work2]);
