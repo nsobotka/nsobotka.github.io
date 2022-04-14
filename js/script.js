@@ -3,8 +3,10 @@ card_home = document.getElementById("card-home")
 card_reachout = document.getElementById("card-reachout")
 card_edu = document.getElementById("card-edu")
 card_classes = document.getElementById("card-classes")
-card_project1 = document.getElementById("card-project1")
-card_project2 = document.getElementById("card-project2")
+card_women1 = document.getElementById("card-women1")
+card_women2 = document.getElementById("card-women2")
+card_women3 = document.getElementById("card-women3")
+card_womenMain = document.getElementById("card-womenMain")
 card_work1 = document.getElementById("card-work1")
 card_work2 = document.getElementById("card-work2")
 
@@ -16,12 +18,14 @@ right_arrow = document.getElementById("right-arrow")
 
 // neighbors order: up, down, left, right
 const neighbors = new Map();
-neighbors.set("card-home", [card_reachout, card_edu, card_project1, card_work1]);
+neighbors.set("card-home", [card_reachout, card_edu, card_womenMain, card_work1]);
 neighbors.set("card-reachout", [null, card_home, null, null]);
 neighbors.set("card-edu", [card_home, card_classes, null, null]);
 neighbors.set("card-classes", [card_edu, null, null, null]);
-neighbors.set("card-project1", [null, null, card_project2, card_home]);
-neighbors.set("card-project2", [null, null, null, card_project1]);
+neighbors.set("card-women1", [null, card_womenMain, null, null]);
+neighbors.set("card-women2", [null, null, card_womenMain, null]);
+neighbors.set("card-women3", [card_womenMain, null, null, null]);
+neighbors.set("card-womenMain", [card_women1, card_women3, card_women2, card_home]);
 neighbors.set("card-work1", [null, null, card_home, card_work2]);
 neighbors.set("card-work2", [null, null, card_work1, null]);
 
@@ -30,8 +34,10 @@ function getCurrCard() {
     else if (window.getComputedStyle(card_reachout, null).display == "block") { return "card-reachout" }
     else if (window.getComputedStyle(card_edu, null).display == "block") { return "card-edu" }
     else if (window.getComputedStyle(card_classes, null).display == "block") { return "card-classes" }
-    else if (window.getComputedStyle(card_project1, null).display == "block") { return "card-project1" }
-    else if (window.getComputedStyle(card_project2, null).display == "block") { return "card-project2" }
+    else if (window.getComputedStyle(card_women1, null).display == "block") { return "card-women1" }
+    else if (window.getComputedStyle(card_women2, null).display == "block") { return "card-women2" }
+    else if (window.getComputedStyle(card_women3, null).display == "block") { return "card-women3" }
+    else if (window.getComputedStyle(card_womenMain, null).display == "block") { return "card-womenMain" }
     else if (window.getComputedStyle(card_work1, null).display == "block") { return "card-work1" }
     else if (window.getComputedStyle(card_work2, null).display == "block") { return "card-work2" }
     else { return alert("No Card Visible") }
@@ -120,8 +126,10 @@ function activate(card) {
     card_reachout.style.display = "none";
     card_edu.style.display = "none";
     card_classes.style.display = "none";
-    card_project1.style.display = "none";
-    card_project2.style.display = "none";
+    card_women1.style.display = "none";
+    card_women2.style.display = "none";
+    card_women3.style.display = "none";
+    card_womenMain.style.display = "none";
     card_work1.style.display = "none";
     card_work2.style.display = "none";
     
