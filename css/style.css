@@ -75,7 +75,7 @@ blue {
     margin-right: 2vw;
 }
 
-#card-edu {
+#card-interestingMain {
     /* Initially hidden */
     display: none;
     position:absolute;
@@ -90,7 +90,7 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-#edu-text {
+#interestingMain-text {
     font-family: 'Space Mono', monospace;
     font-size: 1.25vw;
     margin-top: 6vh;
@@ -121,7 +121,7 @@ blue {
     margin-right: 3vw;
 }
 
-#card-classes {
+#card-interesting1 {
     /* Initially hidden */
     display: none;
     position:absolute;
@@ -142,7 +142,65 @@ blue {
     -moz-columns: 2;
 }
 
-#classes-text {
+#interesting1-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 1vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#card-interesting2 {
+    /* Initially hidden */
+    display: none;
+    position:absolute;
+
+    width: 50vw;
+    height: 50vh;
+
+    top:50%;
+    left:50%;
+
+    margin-left:-25vw;/* half width*/
+	margin-top:-25vh;/* half height*/
+}
+
+.classes {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+#interesting2-text {
+    font-family: 'Space Mono', monospace;
+    font-size: 1vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#card-interesting3 {
+    /* Initially hidden */
+    display: none;
+    position:absolute;
+
+    width: 50vw;
+    height: 50vh;
+
+    top:50%;
+    left:50%;
+
+    margin-left:-25vw;/* half width*/
+	margin-top:-25vh;/* half height*/
+}
+
+.classes {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+#interesting3-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
     margin-top: 6vh;
