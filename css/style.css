@@ -219,7 +219,7 @@ blue {
     margin-right: 3vw;
 }
 
-#card-project2 {
+#card-womenMain {
     /* Initially hidden */
     display: none;
     position:absolute;
@@ -234,7 +234,7 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-#project2-text {
+#womenMain-text {
     font-family: 'Space Mono', monospace;
     font-size: 1vw;
     margin-top: 6vh;
