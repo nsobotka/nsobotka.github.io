@@ -10,4 +10,4 @@ Finally, it is worth noting that the numbers and date collected, while somewhat 
 
 
 # Website creation
-JS and CSS help from Aviel Resnick
+JS and CSS help from Aviel Resnick.
