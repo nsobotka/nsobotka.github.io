@@ -90,7 +90,7 @@ for i in range(len(list) - 1):
 print(count)
 
 
-# Example code used to find fraternity/sorority/honor society mentions if the text contained them in written form
+# Example code used to find fraternity/sorority/honor society mentions if the yearbooks contained them in written form
 # When the yearbooks contained the greek symbols, the text was generally scanned by hand
 
 # Code more akin to this was used to find sentences or strings of words that may have occured in multiple contexts
