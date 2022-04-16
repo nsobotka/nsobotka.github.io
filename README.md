@@ -9,5 +9,5 @@ Other techniques were used to help raise accuracy of the data. These include loo
 Finally, it is worth noting that the numbers and date collected, while somewhat accurate, are almost certainly not 100% correct. Trends, however, should still be reasonable, because the errors are not too prolific. Interpretations of data should be taken within reason, but further research should be done before relying on this data to make significant conclusions. 
 
 
-
+# Website creation
 JS and CSS help from Aviel Resnick
