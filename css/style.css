@@ -142,7 +142,7 @@ blue {
   max-height: 80%;
   margin: auto;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 #interesting1-text {
