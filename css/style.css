@@ -56,7 +56,7 @@ blue {
 {
   margin: auto;
   display: block;
-  position: absolute;
+  position: relative;
   width: 30vw;
   height: 20vh;
   object-fit: contain;
