@@ -59,6 +59,7 @@ blue {
   position: absolute;
   width: 30vw;
   height: 20vh;
+  object-fit: contain;
 	
   top:50%;
   left:50%;
