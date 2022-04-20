@@ -52,6 +52,16 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
+.card img
+{
+  max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+  position: absolute;
+  width: 30vw;
+}
+
 #home-text {
     font-family: 'Space Mono', monospace;
     /* font-size: 3vh; */
@@ -134,15 +144,6 @@ blue {
 
     margin-left:-25vw;/* half width*/
 	margin-top:-25vh;/* half height*/
-}
-
-.card img
-{
-  max-width: 80%;
-  max-height: 80%;
-  margin: auto;
-  display: block;
-  object-fit: contain;
 }
 
 #interesting1-text {
