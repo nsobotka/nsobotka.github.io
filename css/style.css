@@ -52,17 +52,17 @@ blue {
 	margin-top:-25vh;/* half height*/
 }
 
-/* .card img
+.card img
 {
-  margin-left: -25vw;
-  margin-right: -25vh;
-  display: block;
-  position: absolute;
-  width: 30vw;
+   max-height: 80%;
+   max-width: 80%;
+   margin: auto;
+   display: block;
+   object-fit: contain;
 
-/*   margin-left:-25vw;/* half width*/
-  margin-top:-25vh;/* half height*/ */
-} */
+  margin-left:-25vw;/* half width*/
+  margin-top:-25vh;/* half height*/ 
+}
 
 #home-text {
     font-family: 'Space Mono', monospace;
