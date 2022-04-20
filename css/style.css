@@ -54,11 +54,11 @@ blue {
 
 .card img
 {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: block;
   position: absolute;
   width: 30vw;
-  height: 20vh;
 
 /*   margin-left:-25vw;/* half width*/
   margin-top:-25vh;/* half height*/ */
