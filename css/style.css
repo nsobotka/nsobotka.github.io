@@ -57,7 +57,7 @@ blue {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  position: absolute;
+  position: relative;
   width: 30vw;
 
 /*   margin-left:-25vw;/* half width*/
