@@ -54,14 +54,11 @@ blue {
 
 .card img
 {
-   max-height: 80%;
-   max-width: 80%;
-   margin: auto;
-   display: block;
-   object-fit: contain;
-
-  margin-left:-25vw;/* half width*/
-  margin-top:-25vh;/* half height*/ 
+    max-width: 80%;
+  max-height: 80%;
+  margin: auto;
+  display: block;
+  object-fit: contain;
 }
 
 #home-text {
