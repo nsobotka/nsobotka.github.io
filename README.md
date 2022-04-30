@@ -4,7 +4,7 @@ Scans of old yearbooks from the University of Pennsylvania are available via the
 Furthur analysis can be done using the rest of the yearbook. Often interesting information including which students were parts of which on-campus groups was stored in the book. This includes clubs, specific member lists for greek life, presidents of the student body, and much more. This would involve a completely different type of analysis than what was done for this project.
 
 # Notes on the analysis of data
-PDFS transformed using optical character recognition (OCR), and then the text was was analyzed using Python and a handful of libraries, which can be found in the Analysis.py file in the data folder. This work was done in terminal, and examples of the code run can be found in the Analysis.py file (this code is incomplete, but should provide enough example that all work could be replicated). 
+PDFS transformed using optical character recognition (OCR), and then the text was was analyzed using Python and a handful of libraries, which can be found in the Analysis.py file in the data folder. This work was done in terminal because the library spacy seems to have compatibility issues with VSCode, and the examples of the code in Analysis.py file are incomplete, but should provide enough example that all work could be replicated. 
 
 The 1940 women yearbook was completely analyzed by hand, rather than through code. This was because the available scan was particularly blury, and it was not possible to accurately analyze using the same methods as in the other files. 
 
