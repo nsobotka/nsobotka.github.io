@@ -8,13 +8,13 @@ PDFS transformed using optical character recognition (OCR), and then the text wa
 
 The 1940 women yearbook was completely analyzed by hand, rather than through code. This was because the available scan was particularly blury, and it was not possible to accurately analyze using the same methods as in the other files. 
 
-Greek life and honors society information in yearbooks which contained greek symbols rather than spelled out words was also analyzed by hand. This was because often the OCRed file would not register greek symbols correctly. 
+Data collection was done by hand when the yearbooks contained greek life and honors society information in the form of greek symbols rather than spelled out words. This was because often the OCRed file would not register greek symbols correctly. 
 
 Other interesting pieces of information were gathered by hand as well, including the percentage of students in 1960 that were black women. One of the downsides of OCR is that it loses images, and therefore this data is not present in the text files that are on this repository. Again, the original sources are available in the Penn Archives. 
 
 Other techniques were used to help raise accuracy of the data. These include looking for truncated words, rather than the full thing. For example, "wharto" instead of "wharton", "ngineeri" instead of "engineering", and other similar shortcuts. This was because if the files misread words, often the mistake would come at the beginning or end of the word. By looking for the letters in the middle of a word, without losing enough letters such that the word becomes unrecognizable, these errors could be avoided. Additionally, if patterns were noticed in the files, surrounding words could also be checked for. An example would be looking at the proceeding words when searching for greek symbols and greek life.
 
-Finally, it is worth noting that almost none of the numbers collected is 100% correct. Trends that were noticed, however, should still be reasonable, because the errors are not too prolific. Interpretations of data should be taken within reason, but further research should be done before relying on this data to make significant conclusions. 
+Finally, it is worth noting that almost none of the numbers collected is 100% correct. Despite this, most trends that were noticed should still be reasonable because the errors are not too prolific. Interpretations of data are therefore valid, but further research should be done before relying on this data to make significant conclusions. 
 
 
 # Website creation
