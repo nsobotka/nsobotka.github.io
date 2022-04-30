@@ -6,7 +6,7 @@ Furthur analysis can be done using the rest of the yearbook. Often interesting i
 # Notes on the analysis of data
 PDFS transformed using optical character recognition (OCR), and then the text was was analyzed using Python and a handful of libraries, which can be found in the Analysis.py file in the data folder. This work was done in terminal because the library spacy seems to have compatibility issues with VSCode, and the examples of the code in Analysis.py file are incomplete, but should provide enough example that all work could be replicated. 
 
-The 1940 women yearbook was completely analyzed by hand, rather than through code. This was because the available scan was particularly blury, and it was not possible to accurately analyze using the same methods as in the other files. 
+The 1940 women yearbook was completely analyzed by hand, rather than through code. This was because the available scan was particularly blury, and it was not possible to accurately analyze using the same methods as in the other files. It also happens to be the shortest yearbook, and made analysis by hand feasible. This realistically could not be done for the yearbooks that contained over a thousand students.
 
 Data collection was done by hand when the yearbooks contained greek life and honors society information in the form of greek symbols rather than spelled out words. This was because often the OCRed file would not register greek symbols correctly. 
 
