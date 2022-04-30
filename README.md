@@ -14,7 +14,7 @@ Other interesting pieces of information were gathered by hand as well, including
 
 Other techniques were used to help raise accuracy of the data. These include looking for truncated words, rather than the full thing. For example, "wharto" instead of "wharton", "ngineeri" instead of "engineering", and other similar shortcuts. This was because if the files misread words, often the mistake would come at the beginning or end of the word. By looking for the letters in the middle of a word, without losing enough letters such that the word becomes unrecognizable, these errors could be avoided. Additionally, if patterns were noticed in the files, surrounding words could also be checked for. An example would be looking at the proceeding words when searching for greek symbols and greek life.
 
-Finally, it is worth noting that almost none of the numbers collected is 100% correct. Despite this, most trends that were noticed should still be reasonable because the errors are not too prolific. Interpretations of data are therefore valid, but further research should be done before relying on this data to make significant conclusions. 
+Finally, it is worth noting that almost none of the data collected will be 100% correct. Despite this, most trends that were noticed should still be reasonable because the errors are not too prolific. Interpretations of data are therefore valid, but further research should be done before relying on this data to make significant conclusions. 
 
 
 # Website creation
