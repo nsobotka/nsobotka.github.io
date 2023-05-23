@@ -33,24 +33,39 @@
 
 <!--         <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p> -->
 
-        <p>Hello, I'm Nathan Sobotka, a current student at the University of Pennsylvania. I am a computer scientist most interested in low-level areas, ranging from computer architecture to compiler verification.</p>
+        <p>Hello, I'm Nathan Sobotka, a student at the University of Pennsylvania. I am a computer scientist most interested in low-level areas, including computer architecture and compiler verification.</p>
 
-        <p>I am currently working with the <a href="https://deepspec.org/main" target="_blank">DeepSpec NSF Expedition</a>.<br>
-        More specifically, I am part of the team creating <a href="https://www.cis.upenn.edu/~stevez/vellvm/" target="_blank">Vellvm</a> (Verified LLVM).</p>
+        <p>I am currently working with <a href = "https://www.cis.upenn.edu/~devietti/" target="_blank"> Professor Joe Devietti</a> on a project called Profile Guided Prefetch Guard (PG2). The project's goals are to
+          improve program efficiency by dynamically inserting prefetch commands into the code to avoid expensive cache misses.
+        </p>
+
+        <!-- <p>I am currently working with the <a href="https://deepspec.org/main" target="_blank">DeepSpec NSF Expedition</a>.<br>
+        More specifically, I am part of the team creating <a href="https://www.cis.upenn.edu/~stevez/vellvm/" target="_blank">Vellvm</a> (Verified LLVM).</p> -->
+        <p>Additionally, I am an intern at the NASA Langley Research Center. There we are working on combinatorial and property based testing. 
+          I am responsible for ensuring randomized test generation covers all possible corner cases. I do this by leveraging static analysis techniques to identify areas of the
+        codebase that require additional test coverage, before focusing QuickCheck's random test generation on those areas. </p>
 
         <h2>Education</h2>
 
         <ul>
-          <li> <b>2020-2024</b> College: 
+
+          <li> <b>2023-2024</b> Graduate Education:
+            <p> MSE in Computer Science from the School of Engineering and Applied Science at the University of Pennsylvania </p>
+          </li>
+
+          <li> <b>2020-2024</b> Undergraduate Education: 
            <p> BSE in Computer Science from the School of Engineering and Applied Science at the University of Pennsylvania </p> </li>
           
-          <li> <b>2016-2020</b> High school:
+          <li> <b>2016-2020</b> High School:
             <p> Saint Paul Academy and Summit School </p> </li>
         </ul>
 
         <h2>Work</h2>
         
         <ul>
+          <li><b>2023</b> Profile Guided Prefetch Guard (PG2) with Professor Joe Devietti</li>
+          <li><b>2023</b> Combinatorial and Property Based Testing at the NASA Langley Research Center </li>
+          <li><b>2023-2024</b> TA for <i>Computer Organization and Design (CIS 5710)</i> </li>
           <li><b>2022</b> Compiler verification research with <a href="https://www.cis.upenn.edu/~stevez/vellvm/" target="_blank"> The Vellvm Project </a> and Professor Steve Zdancewic </li>
           <li><b>2022</b> Tutored <i>Mathematical Foundations of Computer Science (CIS 1600)</i> and <i>Linear Algebra (Math 3120)</i> </li>
           <li><b>2016-2020</b> Coached tennis at Fred Wells Tennis and Education Center</li>
@@ -60,21 +75,32 @@
         <h2>Projects</h2>
 
         <ul>
-          <li><a href="https://www.cis.upenn.edu/~stevez/vellvm/" target="_blank">The Vellvm Project.</a> I am part of the team working on the memory model of the Vellvm Project. The project is available at <a href="https://github.com/vellvm" target="_blank">https://github.com/vellvm</a>. I worked on testing the memory model by writing unit tests in LLVM, automated tests in QuickChick, and writing proofs using the Coq Proof Assistant. Now I am helping create a public Monad library for Coq.</li>
+          <li>PG2: Research on increasing performance by dynamically inserting prefetch statements to reduce cache misses. Work done under</li>
+          <li>NASA: Using static analysis to guarantee automated test generators cover all possible edge cases to increase test robustness
+          and reliability</li>
+          <li><a href="https://www.cis.upenn.edu/~stevez/vellvm/" target="_blank">The Vellvm Project.</a> I was part of the team working on the memory model of the Vellvm Project, where I worked under Professor Steve Zdancewic. The project is available at <a href="https://github.com/vellvm" target="_blank">https://github.com/vellvm</a>. I worked on testing the memory model by writing unit tests in LLVM, automated tests in QuickChick, and writing proofs using the Coq Proof Assistant. Additionally, I worked on a creating public Monad library for Coq, where we defined and proved the monad laws and other fundamental theorems about the list, state, error, CPS, and free monads, among others.</li>
+          <li>In CIS 5550 I developed my own search engine completely from scratch in Java. This included implementing my own webserver, key value store, and my own version of Apache spark to maximize parallelizability. On top of these foundational programs, this project included building a crawler complete with optimizations to avoid spider traps and crawl a healthy variety of pages, an indexer to compute pagerank and tf / idf values, and a frontend to display the results. The search engine was hosted on Amazon AWS, and had over 125 thousand results that could be displayed to users. </li>
+          <li>In CIS 3800 I built an operating system in C. My portion of the project included creating the scheduler, complete with priority scheduling, blocking and sleeping, and context switching to optimize CPU utilization. I also integrated it with a custom built FAT file system and my own shell (with pipelining and background processes), complete with approximately 15-20 runnable commands. </li>
+          <li>In CIS 4710 I implemented and tested a two way five stage superscalar pipelined processor in Verilog. It was tested using a benchmark of 1.8 million tests, and was fully functional. The processor also had all commands, including branching and memory operations. I am now a TA for the course. </li>
+          <li>In CIS 4600: Interactive Computer Graphics I created a playable version of Minecraft in C++. The game included functional player physics, multithreading and efficient terrain generation, as well as infinite terrain generation. It also includes many aesthetic features, such as shadow mapping, block animation, and Turing-complete redstone.</li>
           <li><a href="https://nsobotka.github.io/Engl009/" target="_blank">An Analysis of the Penn Student Body Since 1900.</a> A scraping of data from old Penn yearbooks from 1900 to 2000. This website presents interesting tidbits found in the yearbooks, and has useful information on how to proceed with gathering more data for anyone who may want to do a similar project in the future. The project was done for a digital humanities class.</li>
-          <li><a href="https://github.com/nsobotka/Waffler" target="_blank">Waffler.</a> The Waffler is, in my opinion, the best of the many Wordle spinoffs. It claimed that every board was solvable in 10 moves, and therefore this project recreates the Waffle game with the purpose of determining the optimal solution to each daily Waffle. Thus this project verifies that each board is indeed solvable in 10 moves. It also includes the ability to play unlimited boards, restart games, and try out the official daily waffle without fear of failure. Visit the <a href="https://wafflegame.net" target="_blank"> Waffle Game</a> to see and play the official game. Credit to <a href="https://twitter.com/thatwafflegame" target="_blank">@thatwafflegame</a> for the game concept.</li>
+          <li><a href="https://github.com/nsobotka/Waffler" target="_blank">Waffler.</a> The Waffler is one of the many Wordle spinoffs, where every board is solvable in 10 moves. This project is an optimal Waffle solver, capable of determining the optimal solution to every daily Waffle. It also includes the ability to play unlimited boards, restart games, and try out the official daily waffle without fear of failure. Visit the <a href="https://wafflegame.net" target="_blank"> Waffle Game</a> to see and play the official game. Credit to <a href="https://twitter.com/thatwafflegame" target="_blank">@thatwafflegame</a> for the game concept.</li>
         </ul>
 
-        <p>For more projects, please reach out to me at <a href="mailto:nsobotka@seas.upenn.edu">nsobotka@seas.upenn.edu</a>. I am permitted to share some of my private repositories with recruiters. </p>
+        <p>For an indepth look at my projects, please reach out to me at <a href="mailto:nsobotka@seas.upenn.edu">nsobotka@seas.upenn.edu</a>. I may be permitted to share some of my private repositories with recruiters. </p>
         
         <h2>Coursework</h2>
 
         <ul> 
-          <li> CIS 5210: Artificial Intelligence*</li>
+          <li> CIS 5550: Internet and Web Systems</li>
+          <li> CIS 5230: Ethical Algorithm Design</li>
+          <li> CIS 5210: Artificial Intelligence</li>
           <li> CIS 4710: Computer Organization and Design</li>
-          <li> CIS 4500: Database and Information Systems*</li>
-          <li> CIS 3800: Computer Operating Systems*</li>
-          <li> CIS 3200: Introduction to Algorithms*</li>
+          <li> CIS 4600: Interactive Computer Graphics</li>
+          <li> CIS 4500: Database and Information Systems</li>
+          <li> CIS 3990: Human Computer Interaction</li>
+          <li> CIS 3800: Computer Operating Systems</li>
+          <li> CIS 3200: Introduction to Algorithms</li>
           <li> CIS 2620: Automata, Computability, and Complexity</li>
           <li> CIS 2400: Introduction to Computer Systems</li>
           <li> CIS 1920: Python Programming</li>
@@ -87,7 +113,7 @@
           <li> MATH 2400: Calculus, Part III (Linear Algebra and Ordinary Differential Equations)</li>
           <li> MATH 1410: Calculus, Part II (Multivariable Calculus) *Placed out</li>
         </ul>
-        <p>* Currently enrolled in the course.</p>
+        <!-- <p>* Currently enrolled in the course.</p> -->
         
         <p>More information can be found in the <a href="https://catalog.upenn.edu/courses/" target="_blank">course catalog.</a><br></p>
 
